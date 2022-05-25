@@ -1,0 +1,164 @@
+
+.stage {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1410px;
+}
+
+body {
+    background-color: #1E1E1E;
+    margin: 0px;
+}
+
+.navi {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px #9EFF00;
+
+}
+
+.item-navi {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    width: 70%;
+}
+
+.ankerlinks {
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+/* unvisited link */
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: underline 1px #9EFF00;
+    color: #9EFF00;
+
+
+}
+
+/* selected link */
+a:active {
+    text-decoration: underline 1px #9EFF00;
+    color: #9EFF00;
+}
+
+.h2,
+.headline {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.text {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.headerbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.second-big {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: right;
+    color: #9EFF00;
+    margin: 0;
+}
+
+.second-small {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #9EFF00;
+    margin: 0;
+}
+
+.container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.image-parts {
+    width: 1410px;
+    display: grid;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    grid-template-columns: repeat(30, 1fr);
+    overflow: hidden;
+    object-fit: contain;
+}
+
+img {
+    width: 45px;
+    height: 45px;
+}
+
+.headline {
+    margin-top: 20px;
+}
+
+.footer {
+    font-family: 'SF Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
