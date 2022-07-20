@@ -1,13 +1,13 @@
 # Entwicklung einer Webtestumgebung für HTTP/1.1, HTTP/2 und HTTP/3
 
-##Dieses Repository zeigt, wie sich Anwendungsprotokolle von HTTP/1. 1, HTTP/2. 0 und HTTP/3 unterscheiden.
+## Dieses Repository zeigt, wie sich Anwendungsprotokolle von HTTP/1. 1, HTTP/2. 0 und HTTP/3 unterscheiden.
 ## Die unterschiedlichen Ladezeiten werden mithilfe von Webapplikationen und Bildern dargestellt, so dass die Vorteile der Protokolle sichtbar werden.
 ## Schritt-für-Schritt-Anleitung 
 
 - Repository klonen
 
 
-- Eine VM installieren Oder VM aus /VM Ordner benutzen PW: stefan
+- Eine VM installieren
   - VirtualBox:  https://www.virtualbox.org/
   - Ubuntu 20.04: https://releases.ubuntu.com/20.04/
 
